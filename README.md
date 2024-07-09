@@ -11,7 +11,19 @@ Este repositorio tiene como fin documentar mis conocimientos para tener un acces
 
 <div id="array-methods"></div>
 
-### array.map
+## Metodos de arrays
+
+- [Map](#map)
+- [Filter](#filter)
+- [Find](#find)
+- [Includes](#includes)
+- [Slice](#slice)
+- [Splice](#splice)
+- [Concat](#concat)
+
+<div id="map"></div>
+
+### Map
 
 El método map es una función que se aplica a arrays y permite crear un nuevo array con los resultados de aplicar una función a cada uno de los elementos del array original. este método no modifica el array original, retorna un nuevo array.
 
@@ -23,7 +35,9 @@ const doubleNumbers = numbers.map((num) => num*2);
 output: [2,4,6,8,10,12,14,16,18,20]
 ```
 
-### array.filter
+<div id="filter"></div>
+
+### Filter
 
  crea un nuevo array con todos los elementos que pasan una condicion especifica. Es una forma efectiva de filtrar elementos en un array según ciertos criterios.
 
@@ -38,7 +52,9 @@ const evenNumbers = numbers.filter(function(number) {
 output: [2,4,6,8,10]
 ```
 
-### array.find
+<div id="find"></div>
+
+### Find
 
  Devuelve el primer elemento del array que cumple con la condición especificada.
  
